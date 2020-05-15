@@ -1,0 +1,10 @@
+n = int(input())
+from collections import Counter
+arr = list(map(int, input().rstrip().split()))
+m = int(input())
+brr = list(map(int, input().rstrip().split()))
+a = Counter(arr)
+b = Counter(brr)
+print(a)
+print(b)
+print( sorted((b - a).keys()))
