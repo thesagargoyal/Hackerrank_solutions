@@ -16,7 +16,7 @@ if d%2!=0:
 else:
     for i in  range(d,n):
         s=e[x:x+d]
-        s.sort()
+        s.sort()         # sort method  is used to sort a array in python
         m=int((s[(d-1)//2])+(s[d//2]))/2
         x+=1
         #print(e[i],2*m)
