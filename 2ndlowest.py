@@ -1,4 +1,4 @@
-n=[]
+n=[] # n=[] By this we can dynamically initialize list in python
 s=[]
 k=[]
 if __name__ == '__main__':
